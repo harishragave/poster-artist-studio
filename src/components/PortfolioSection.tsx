@@ -136,12 +136,12 @@ const PortfolioSection = () => {
                     </CardContent>
                   </Card>
                 </DialogTrigger>
-                <DialogContent className="max-w-4xl max-h-[90vh] p-0">
-                  <div className="relative">
+                <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-0 overflow-hidden">
+                  <div className="relative w-full h-full flex items-center justify-center">
                     <img 
                       src={item.image}
                       alt={item.title}
-                      className="w-full h-auto object-contain"
+                      className="max-w-full max-h-[95vh] w-auto h-auto object-contain"
                     />
                   </div>
                 </DialogContent>
